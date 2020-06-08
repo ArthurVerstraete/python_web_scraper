@@ -23,7 +23,7 @@ tableBody = tableDiv.table.tbody
 tableRows = tableBody.findAll("tr", {})
 
 outputTable = pt()
-outputTable.field_names = ["Title", "Cheapest Shop", "Price #1", "Second Cheapest Shop", "Price #2", "Third Cheapest Shop", "Price #3"]
+outputTable.field_names = ["Amount", "Title", "Cheapest Shop", "Unit Price #1", "Second Cheapest Shop", "Unit Price #2", "Third Cheapest Shop", "Unit Price #3"]
 
 outputTable2 = pt()
 outputTable2.field_names = ["#products", "Total", "Total According To Tweakers", "Difference", "Procentual Difference"]
@@ -38,6 +38,11 @@ for tableRow in tableRows:
         priceAccordingToTweakers = priceAccordingToTweakers.replace('€', '').replace('.', '').replace(',', '.').replace('-', '0').replace(' ', '')
         priceAccordingToTweakers = round(float(priceAccordingToTweakers), 2)
         break
+    amount = tableRow.find("td", {"class":"amount"}).text.replace('x', '').replace('\n', '')
+    if str(amount) == '':
+        amount = 1
+    else:
+        amount = int(amount)
     tableRowUrl = tableRow.find("p", {"class":"ellipsis"}).a["href"]
     print("Scraping " + tableRowUrl)
     uItemClient = uReq(tableRowUrl)
@@ -63,9 +68,9 @@ for tableRow in tableRows:
         cheapestShop = shopTableRows[x]
         cheapestShopsName[int(x/6)] = cheapestShop.find("td", {"class":"shop-name"}).p.a.text.replace('\n', '')
         cheapestShopsPrice[int(x/6)] = cheapestShop.find("td", {"class":"shop-price"}).p.a.text.replace('\n', '')
-    outputTable.add_row([title, cheapestShopsName[0], cheapestShopsPrice[0], cheapestShopsName[1], cheapestShopsPrice[1], cheapestShopsName[2], cheapestShopsPrice[2]])
+    outputTable.add_row([amount, title, cheapestShopsName[0], cheapestShopsPrice[0], cheapestShopsName[1], cheapestShopsPrice[1], cheapestShopsName[2], cheapestShopsPrice[2]])
     price = cheapestShopsPrice[0].replace(' ', '').replace('€', '').replace('-', '0').replace(',', '.')
-    total = total + float(price)
+    total = total + (amount*float(price))
     i = i + 1
     time.sleep(20)
 
