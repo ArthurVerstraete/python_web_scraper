@@ -1,0 +1,23 @@
++------------------------------------+--------------------+----------+----------------------+----------+------------------------+----------+
+|               Title                |   Cheapest Shop    | Price #1 | Second Cheapest Shop | Price #2 |  Third Cheapest Shop   | Price #3 |
++------------------------------------+--------------------+----------+----------------------+----------+------------------------+----------+
+|       AMD Ryzen 5 3600 Boxed       |     Amazon.nl      | € 159,-  |     Alternate.nl     | € 163,95 |      SWW Computer      | € 174,40 |
+|     ASRock B450M Steel Legend      |     Amazon.nl      |  € 90,-  |       Megekko        | € 93,95  |   CD-ROM-LAND  Breda   | € 97,95  |
+| Gigabyte GeForce GTX 1650 Super OC |     Amazon.nl      | € 179,-  |     Max ICT B.V.     | € 181,97 |      SiComputers       | € 182,95 |
+|       Seagate Barracuda, 1TB       |    SiComputers     | € 42,30  |       Megekko        | € 42,94  |      Alternate.nl      | € 42,94  |
+|       TP-Link Archer TX3000        |     DirectSale     | € 50,95  |        Azerty        | € 52,03  | ACES Direct | zakelijk | € 52,03  |
+|             HP P27h G4             |     Amazon.nl      | € 188,01 |     SiComputers      | € 190,46 |      Max ICT B.V.      | € 191,24 |
+|        Philips 243V7QDSB/00        |   Dustinhome.nl    | € 102,85 |       Bol.com        | € 109,-  |      SiComputers       | € 109,49 |
+|        Logitech Z150 Zwart         |      Megekko       | € 24,95  |     SiComputers      | € 24,95  |      Informatique      | € 24,95  |
+|            Ewent EW1258            |     DirectSale     | € 18,90  |        Azerty        | € 19,36  | ACES Direct | zakelijk | € 19,36  |
+|     Cougar Vantar (Azerty BE)      |     Amazon.nl      | € 58,43  |                      |          |                        |          |
+|        Trust GXT 165 Celox         |      Bol.com       | € 38,60  |      Amazon.nl       | € 38,60  |      Alternate.nl      | € 49,85  |
+|  G.Skill Aegis F4-3000C16D-16GISB  |      Megekko       | € 71,85  |     SiComputers      | € 71,85  |      SWW Computer      | € 72,20  |
+|     Seasonic Core Gold GC 500      | CD-ROM-LAND  Breda | € 67,90  |       Megekko        | € 67,90  |         Azerty         | € 67,90  |
+|         Kingston A2000 1TB         |     Amazon.nl      | € 126,05 |       4Launch        | € 128,-  |   CD-ROM-LAND  Breda   | € 130,-  |
++------------------------------------+--------------------+----------+----------------------+----------+------------------------+----------+
++-----------+-----------+-----------------------------+------------+-----------------------+
+| #products |   Total   | Total According To Tweakers | Difference | Procentual Difference |
++-----------+-----------+-----------------------------+------------+-----------------------+
+|     14    | € 1218.79 |          € 1191.21          |  € 27.58   |        2.3153 %       |
++-----------+-----------+-----------------------------+------------+-----------------------+
