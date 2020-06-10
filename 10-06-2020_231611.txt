@@ -1,0 +1,23 @@
++--------+------------------------------------+-------------------------+---------------+-------------------------+---------------+----------------------+---------------+
+| Amount |               Title                |      Cheapest Shop      | Unit Price #1 |   Second Cheapest Shop  | Unit Price #2 | Third Cheapest Shop  | Unit Price #3 |
++--------+------------------------------------+-------------------------+---------------+-------------------------+---------------+----------------------+---------------+
+|   1    |       AMD Ryzen 5 3600 Boxed       |        Amazon.nl        |    € 159,-    |       Alternate.nl      |    € 163,95   |     SWW Computer     |    € 174,40   |
+|   1    |     ASRock B450M Steel Legend      |        Amazon.nl        |     € 90,-    |         Megekko         |    € 93,95    |  CD-ROM-LAND  Breda  |    € 97,95    |
+|   1    | Gigabyte GeForce GTX 1650 Super OC |        Amazon.nl        |    € 179,-    |       Max ICT B.V.      |    € 181,35   |     SiComputers      |    € 182,95   |
+|   1    |       TP-Link Archer TX3000        |       SiComputers       |    € 50,80    |        DirectSale       |    € 50,95    | HardwareWebwinkel.nl |    € 51,80    |
+|   1    |             HP P27h G4             |        Amazon.nl        |    € 188,01   |       SiComputers       |    € 189,95   |     Max ICT B.V.     |    € 190,60   |
+|   1    |        Philips 243V7QDSB/00        | Centralpoint | zakelijk |    € 100,43   |      Dustinhome.nl      |    € 102,85   |       Bol.com        |    € 109,-    |
+|   1    |        Logitech Z150 Zwart         |         Megekko         |    € 24,95    |       SiComputers       |    € 24,95    |     Informatique     |    € 24,95    |
+|   3    |   Gelid Solutions Silent 12 PWM    |   HardwareWebwinkel.nl  |    € 11,55    |         Megekko         |    € 11,90    |     Informatique     |    € 12,40    |
+|   1    |            Ewent EW1258            |          Azerty         |    € 19,36    | Centralpoint | zakelijk |    € 19,36    |     Informatique     |    € 19,45    |
+|   1    |   Trust GXT 890 Cada (Azerty BE)   |        DirectSale       |    € 72,95    |       Max ICT B.V.      |    € 73,56    |        Azerty        |    € 75,02    |
+|   1    |        Trust GXT 165 Celox         |         Bol.com         |    € 38,60    |        Amazon.nl        |    € 38,60    |     Alternate.nl     |    € 49,85    |
+|   1    |  G.Skill Aegis F4-3000C16D-16GISB  |       SWW Computer      |    € 71,50    |         Megekko         |    € 71,85    |     SiComputers      |    € 71,85    |
+|   1    |     Seasonic Core Gold GC 650      |         Megekko         |    € 77,89    |          Azerty         |    € 77,89    |     Informatique     |    € 77,89    |
+|   1    |         Kingston A2000 1TB         |        Amazon.nl        |    € 122,05   |         Reichelt        |    € 124,80   |       Megekko        |    € 126,-    |
++--------+------------------------------------+-------------------------+---------------+-------------------------+---------------+----------------------+---------------+
++-----------+-----------+-----------------------------+------------+-----------------------+
+| #products |   Total   | Total According To Tweakers | Difference | Procentual Difference |
++-----------+-----------+-----------------------------+------------+-----------------------+
+|     14    | € 1229.19 |          € 1172.99          |   € 56.2   |        4.7912 %       |
++-----------+-----------+-----------------------------+------------+-----------------------+
