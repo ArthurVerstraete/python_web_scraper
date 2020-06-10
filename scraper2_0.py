@@ -35,7 +35,7 @@ megekkoSites = ["https://www.megekko.nl/product/4278/261303/Socket-AM4-Processor
                 "https://www.megekko.nl/product/4286/248686/AMD-Socket-AM4-Moederborden/Asrock-B450M-STEEL-LEGEND-moederbord",
                 "https://www.megekko.nl/product/2046/185186/DDR4-Geheugen/G-Skill-DDR4-Aegis-2x8GB-3000Mhz-F4-3000C16D-16GISB-Geheugenmodule",
                 "https://www.megekko.nl/product/1963/1093873/Nvidia-Videokaarten/Gigabyte-Geforce-GTX-1650-Super-OC-4G-Videokaart",
-                "https://www.megekko.nl/product/4186/264372/PC-Voedingen-PSU-/Seasonic-Core-Gold-GC-500-PSU-PC-voeding",
+                "https://www.megekko.nl/product/4186/264373/PC-Voedingen-PSU-/Seasonic-Core-Gold-GC-650-PSU-PC-voeding",
                 "https://www.megekko.nl/product/5093/266800/SSD-M-2/Kingston-A2000-1000GB-M-2-SSD",
                 "https://www.megekko.nl/product/3419/1099052/Antistatische-producten/Nedis-Antistatische-Polsband-Verstelbaar-Zwart",
                 "https://www.megekko.nl/product/2036/993706/Hard-disks-3-5-/Seagate-HDD-3-5-1TB-ST1000DM010-BarraCuda",
