@@ -42,12 +42,13 @@ megekkoSites = ["https://www.megekko.nl/product/4278/261303/Socket-AM4-Processor
                 "https://www.megekko.nl/product/1942/1085311/Wi-Fi-PCI-E-kaart/TP-LINK-WLAN-Adapter-Archer-TX3000",
                 "https://www.megekko.nl/product/1995/376135/Case-fan-120mm/Gelid-Solutions-Casefan-SILENT-12-PWM-120mm",
                 "https://www.megekko.nl/product/2060/259480/Laptop-Koeling/Ewent-EW1258-notebook-cooling-pad-43-2-cm-17-1000-RPM-Zwart",
-                "https://www.megekko.nl/product/2177/102600/PC-speakers/Logitech-speakers-Z150-black"]
+                "https://www.megekko.nl/product/2177/102600/PC-speakers/Logitech-speakers-Z150-black",
+                "https://www.megekko.nl/product/2013/1106149/Midi-Tower-Behuizingen/Zalman-S5-Black-Midi-Tower-Behuizing"]
 
-megekkoAmounts = [1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1]
+megekkoAmounts = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1]
 
 bolSites = ["https://www.bol.com/nl/p/gxt-165-celox-rgb-gaming-muis-10-000-dpi/9200000103300934/?bltgh=sXdumu3ch1pw9PNm8BdAMg.1_4.5.ProductTitle",
-            "https://www.bol.com/nl/p/philips-243v7qdsb-full-hd-ips-monitor/9200000077546745/?bltgh=kD76BucF5X-IQdlwfyxCzw.1_4.5.ProductTitle"]
+            "https://www.bol.com/nl/p/samsung-ls24r350-full-hd-ips-monitor-24-inch/9200000121257763/?bltgh=lVZjp-jwpLodLEoPmHFEnA.1_4.5.ProductTitle"]
 
 bolAmounts = [1 , 1]
 
@@ -55,7 +56,7 @@ maxICTSites = ["https://maxict.nl/hp-p27h-g4-686-cm-27-1920-x-1080-pixels-full-h
 
 maxICTAmounts = [1]
 
-mediamarktSites = ["https://www.mediamarkt.be/nl/product/_trust-gamingtoetsenbord-azerty-22592-1718102.html?ga_query=22592"]
+mediamarktSites = ["https://www.mediamarkt.be/nl/product/_logitech-gamingtoetsenbord-g213-prodigy-azerty-fr-1598886.html"]
 
 mediamarktAmounts = [1]
 
@@ -80,7 +81,7 @@ for x in range(len(megekkoSites)):
 
 print("#MEGEKKO#")
 print(megekkoTable)
-megekkoTotalTable.add_row([megekkoTotalNShipping, megekkoShipping, round(megekkoTotalNShipping+megekkoShipping, 2)])
+megekkoTotalTable.add_row([round(megekkoTotalNShipping, 2), megekkoShipping, round(megekkoTotalNShipping+megekkoShipping, 2)])
 print(megekkoTotalTable)
 totalNShipping = totalNShipping + megekkoTotalNShipping
 total = total + (round(megekkoTotalNShipping+megekkoShipping, 2))
@@ -183,7 +184,7 @@ f.write(str(mediamarktTotalTable))
 f.write('\n\n\n')
 
 print("#TOTAL#")
-totalTable.add_row([len(megekkoSites)+len(bolSites)+len(maxICTSites)+len(mediamarktSites), totalNShipping, total])
+totalTable.add_row([len(megekkoSites)+len(bolSites)+len(maxICTSites)+len(mediamarktSites), round(totalNShipping, 2), round(total, 2)])
 print(totalTable)
 
 f = open(str("2.0_" + now.strftime("%d-%m-%Y_%H:%M:%S")).replace(':', '') + ".txt", 'a')
