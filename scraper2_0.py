@@ -17,6 +17,7 @@ maxICTTotalTable = pt(["Total without shipping", "Shipping", "Total with shippin
 mediamarktTable = pt(["Amount", "Name", "Unit Price", "Total Price"])
 mediamarktTotalTable = pt(["Total without shipping", "Shipping", "Total with shipping"])
 
+
 totalTable = pt(["#products", "Total without shipping", "Total with shipping"])
 
 megekkoTotalNShipping = 0
@@ -43,12 +44,12 @@ megekkoSites = ["https://www.megekko.nl/product/4278/261303/Socket-AM4-Processor
                 "https://www.megekko.nl/product/1995/376135/Case-fan-120mm/Gelid-Solutions-Casefan-SILENT-12-PWM-120mm",
                 "https://www.megekko.nl/product/2060/259480/Laptop-Koeling/Ewent-EW1258-notebook-cooling-pad-43-2-cm-17-1000-RPM-Zwart",
                 "https://www.megekko.nl/product/2177/102600/PC-speakers/Logitech-speakers-Z150-black",
+                "https://www.megekko.nl/product/2169/978853/Muizen-bedraad/Sharkoon-Skiller-SGM1-RGB-Gaming-muis",
                 "https://www.megekko.nl/product/2013/1106149/Midi-Tower-Behuizingen/Zalman-S5-Black-Midi-Tower-Behuizing"]
 
-megekkoAmounts = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1]
+megekkoAmounts = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1]
 
-bolSites = ["https://www.bol.com/nl/p/gxt-165-celox-rgb-gaming-muis-10-000-dpi/9200000103300934/?bltgh=sXdumu3ch1pw9PNm8BdAMg.1_4.5.ProductTitle",
-            "https://www.bol.com/nl/p/samsung-ls24r350-full-hd-ips-monitor-24-inch/9200000121257763/?bltgh=lVZjp-jwpLodLEoPmHFEnA.1_4.5.ProductTitle"]
+bolSites = ["https://www.bol.com/nl/p/samsung-ls24r350-full-hd-ips-monitor-24-inch/9200000121257763/?bltgh=lVZjp-jwpLodLEoPmHFEnA.1_4.5.ProductTitle"]
 
 bolAmounts = [1 , 1]
 
@@ -59,6 +60,7 @@ maxICTAmounts = [1]
 mediamarktSites = ["https://www.mediamarkt.be/nl/product/_logitech-gamingtoetsenbord-g213-prodigy-azerty-fr-1598886.html"]
 
 mediamarktAmounts = [1]
+
 
 for x in range(len(megekkoSites)):
     uClient = uReq(megekkoSites[x])
@@ -182,6 +184,7 @@ f.write(str(mediamarktTable))
 f.write('\n')
 f.write(str(mediamarktTotalTable))
 f.write('\n\n\n')
+
 
 print("#TOTAL#")
 totalTable.add_row([len(megekkoSites)+len(bolSites)+len(maxICTSites)+len(mediamarktSites), round(totalNShipping, 2), round(total, 2)])
