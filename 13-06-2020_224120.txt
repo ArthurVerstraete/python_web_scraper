@@ -1,0 +1,25 @@
++--------+-------------------------------------------------------+-----------------------+---------------+-------------------------+---------------+---------------------+---------------+
+| Amount |                         Title                         |     Cheapest Shop     | Unit Price #1 |   Second Cheapest Shop  | Unit Price #2 | Third Cheapest Shop | Unit Price #3 |
++--------+-------------------------------------------------------+-----------------------+---------------+-------------------------+---------------+---------------------+---------------+
+|   1    |                 AMD Ryzen 5 3600 Boxed                |       Amazon.nl       |    € 165,-    |    CD-ROM-LAND  Breda   |    € 169,95   |       Megekko       |    € 169,95   |
+|   1    |               ASRock B450M Steel Legend               |       Amazon.nl       |     € 90,-    |         Megekko         |    € 93,95    |     SiComputers     |    € 93,95    |
+|   1    |           Gigabyte GeForce GTX 1650 Super OC          |       Amazon.nl       |    € 174,90   |       SiComputers       |    € 178,85   |       Megekko       |    € 179,85   |
+|   1    |                 Seagate Barracuda, 1TB                |      SiComputers      |    € 42,44    |         Megekko         |    € 42,94    |     Alternate.nl    |    € 42,94    |
+|   1    |                    Zalman S5 Zwart                    |        Megekko        |    € 53,85    |       SiComputers       |    € 53,85    |  CD-ROM-LAND  Breda |    € 54,85    |
+|   1    |                 TP-Link Archer TX3000                 |      SiComputers      |    € 50,80    |   HardwareWebwinkel.nl  |    € 51,80    |       Redable       |     € 53,-    |
+|   1    |                       HP P27h G4                      |       Amazon.nl       |    € 188,01   |       SiComputers       |    € 189,95   |     Max ICT B.V.    |    € 190,60   |
+|   1    |                    Samsung S24R350                    | Art & Craft Nederland |    € 123,15   |         Bol.com         |    € 129,-    |     Samsung.com     |    € 129,-    |
+|   1    |                  Logitech Z150 Zwart                  |        Megekko        |    € 24,95    |       SiComputers       |    € 24,95    |     Informatique    |    € 24,95    |
+|   2    |             Gelid Solutions Silent 12 PWM             |  HardwareWebwinkel.nl |    € 11,55    |         Megekko         |    € 11,90    |     Informatique    |    € 12,40    |
+|   1    |                      Ewent EW1258                     |         Azerty        |    € 19,36    | Centralpoint | zakelijk |    € 19,36    |     Informatique    |    € 19,45    |
+|   1    | Logitech G213 Prodigy RGB Gaming Keyboard (Azerty FR) |       Amazon.nl       |    € 64,99    |    All In One Systems   |    € 70,85    |     Max ICT B.V.    |    € 73,81    |
+|   1    |       Sharkoon Skiller SGM1 Optical Gaming Mouse      |       Amazon.nl       |    € 36,99    |       Alternate.nl      |    € 41,94    |       Megekko       |    € 43,95    |
+|   1    |            G.Skill Aegis F4-3000C16D-16GISB           |  HardwareWebwinkel.nl |    € 71,45    |       SWW Computer      |    € 71,50    |       Megekko       |    € 71,85    |
+|   1    |               Seasonic Core Gold GC 650               |        Megekko        |    € 77,89    |          Azerty         |    € 77,89    |     Informatique    |    € 77,89    |
+|   1    |                   Kingston A2000 1TB                  |       Amazon.nl       |    € 122,05   |    PC-Score Renkum BV   |    € 122,95   |       Reichelt      |    € 124,80   |
++--------+-------------------------------------------------------+-----------------------+---------------+-------------------------+---------------+---------------------+---------------+
++-----------+-----------+-----------------------------+------------+-----------------------+
+| #products |   Total   | Total According To Tweakers | Difference | Procentual Difference |
++-----------+-----------+-----------------------------+------------+-----------------------+
+|     16    | € 1328.93 |          € 1274.93          |   € 54.0   |        4.2355 %       |
++-----------+-----------+-----------------------------+------------+-----------------------+
