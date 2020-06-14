@@ -45,7 +45,7 @@ megekkoSites = ["https://www.megekko.nl/product/4278/261303/Socket-AM4-Processor
                 "https://www.megekko.nl/product/2060/259480/Laptop-Koeling/Ewent-EW1258-notebook-cooling-pad-43-2-cm-17-1000-RPM-Zwart",
                 "https://www.megekko.nl/product/2177/102600/PC-speakers/Logitech-speakers-Z150-black",
                 "https://www.megekko.nl/product/2169/978853/Muizen-bedraad/Sharkoon-Skiller-SGM1-RGB-Gaming-muis",
-                "https://www.megekko.nl/product/2013/1106149/Midi-Tower-Behuizingen/Zalman-S5-Black-Midi-Tower-Behuizing"]
+                "https://www.megekko.nl/product/2013/1092449/Midi-Tower-Behuizingen/Sharkoon-RGB-LIT-200-Midi-Tower-Behuizing"]
 
 megekkoAmounts = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1]
 
